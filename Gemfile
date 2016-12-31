@@ -35,7 +35,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spree'
 gem 'spree_auth_devise'
 gem 'spree_gateway'
-gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-1-stable'
 
 
 group :development, :test do
