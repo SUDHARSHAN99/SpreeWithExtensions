@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+gem 'rails_12factor'
+ruby "'2.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -32,9 +33,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'spree'
-gem 'spree_auth_devise'
-gem 'spree_gateway'
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
 
 
 group :development, :test do
